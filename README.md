@@ -16,7 +16,8 @@ UDP client and server communication wherein large size file transfer is possible
 
 # CLIENT 
 --> Argument sample: python client.py 127.0.0.1 5555
-1.The client takes two arguments, the ip and the port of the client.\n
+1.The client takes two arguments, the ip and the port of the client.
+
 2.The client sends to the server.
 3.The get feature allows the client to receive files from server directory to its own directory.
 4.The put feature allows the client to send files to the server directory from its own directory.
