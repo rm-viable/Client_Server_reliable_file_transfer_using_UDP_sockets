@@ -1,6 +1,9 @@
 # Client_Server_reliable_file_transfer_using_UDP_sockets
 UDP client and server communication wherein large size file transfer is possible with high reliability using sequence numbers and acknowledgements.
 
+# Background
+\t L
+
 # SERVER
 --> Argument sample: python server.py 5555
 1.The server takes one argument, the port of the server.
@@ -13,7 +16,7 @@ UDP client and server communication wherein large size file transfer is possible
 
 # CLIENT 
 --> Argument sample: python client.py 127.0.0.1 5555
-1.The client takes two arguments, the ip and the port of the client.
+1.The client takes two arguments, the ip and the port of the client.\n
 2.The client sends to the server.
 3.The get feature allows the client to receive files from server directory to its own directory.
 4.The put feature allows the client to send files to the server directory from its own directory.
